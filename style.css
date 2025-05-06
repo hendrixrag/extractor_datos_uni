@@ -1,0 +1,63 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  color: #0455bf;
+}
+img {
+  display: block;
+  margin: auto;
+}
+
+#dropZone {
+  width: 550px;
+  height: 250px;
+  border: 3px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  transition: all 0.3s;
+}
+
+#dropZone.highlight {
+  border-color: #4caf50;
+  background-color: #f0fff0;
+  transform: scale(1.02);
+}
+
+#fileInfo {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.custom-btn {
+  background-color: #f29422;
+  color: #0455bf;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+#convertBtn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.custom-btn:hover {
+  background-color: #f27405;
+  transform: scale(1.02);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Extractor de datos</title>
+    <link rel="icon" href="images/UNEFA_Logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!--Librerias para trabajar con PDF y Excel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  </head>
+  <body>
+    <img src="images/UNEFA_Letra.png" />
+    <h1>Extrae los datos de tus estudiantes agregando el listado en PDF c:</h1>
+    <div id="dropZone">
+      <div class="icon">📁</div>
+      <p>Arrastra y suelta tu PDF aquí</p>
+      <p>o</p>
+      <button class="custom-btn" id="selectBtn">Selecciona un archivo</button>
+      <input type="file" id="fileInput" accept=".pdf" style="display: none" />
+      <div id="fileInfo"></div>
+    </div>
+    <button
+      onclick="convertToExcel()"
+      class="custom-btn"
+      id="convertBtn"
+      disabled
+    >
+      Convertir a Excel
+    </button>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
