@@ -11,3 +11,4 @@
 
 
 ![Pantalla principal](screenshots/main-preview.png)
+*Pantalla única*
