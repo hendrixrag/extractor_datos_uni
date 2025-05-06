@@ -10,5 +10,5 @@
 *Interfaz al iniciar la aplicación*
 
 
-![Pantalla principal](screenshots/main-preview.png)
+![Pantalla principal](screenshots/main_preview.png)
 *Pantalla única*
