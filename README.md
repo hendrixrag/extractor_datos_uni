@@ -6,7 +6,8 @@
 
 ## 🖼️ Capturas:
 
-![Bienvenida a la aplicación](screenshots/welcome_message.gif)
+![Bienvenida a la aplicación](screenshots/welcome_message.png)
 *Interfaz al iniciar la aplicación*
+
 
 ![Pantalla principal](screenshots/main-preview.png)
